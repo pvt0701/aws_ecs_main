@@ -31,10 +31,10 @@ on:
     branches: [ "master" ]
 
 env:
-  AWS_REGION: us-east-1                
-  ECR_REPOSITORY: aws-ecs-ecr                 
-  ECS_CLUSTER: ecs-cluster                 
-  ECS_TASK_DEFINITION: ecs-task-main 
+  AWS_REGION: "us-east-1"                
+  ECR_REPOSITORY: "aws-ecs-ecr"                 
+  ECS_CLUSTER: "ecs-cluster"                 
+  ECS_TASK_DEFINITION: "ecs-task-main" 
                                              
   CONTAINER_NAME: ecs-task-main      
 
